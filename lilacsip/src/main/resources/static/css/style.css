@@ -250,25 +250,17 @@ body{
 
 .developer-credit{
     margin-top:20px;
-    opacity:.9;
+    font-size:14px;
 }
 
-.developer-logo{
-    width: 35px;
-    height: 35px;
-    object-fit: contain;
-    margin-bottom: 8px;
+.code-tag{
+    color:#d8b4fe;
+    margin-right:8px;
 }
 
-.developer-logo:hover{
-    transform:scale(1.1) rotate(5deg);
-}
-
-.developer-credit p{
-    margin:0;
-    font-weight:500;
-}
-
-.developer-credit small{
-    color:#ccc;
+.developer-name{
+    font-weight:700;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    color:#fff;
 }
