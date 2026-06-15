@@ -247,3 +247,27 @@ body{
     color:#7b2cbf;
     transform:translateY(-2px);
 }
+
+.developer-credit{
+    margin-top:20px;
+    opacity:.9;
+}
+
+.developer-logo{
+    width:60px;
+    height:auto;
+    transition:0.4s ease;
+}
+
+.developer-logo:hover{
+    transform:scale(1.1) rotate(5deg);
+}
+
+.developer-credit p{
+    margin:0;
+    font-weight:500;
+}
+
+.developer-credit small{
+    color:#ccc;
+}
